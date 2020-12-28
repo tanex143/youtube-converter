@@ -1,3 +1,7 @@
+## I created this project so that I have my own youtube converter and to know how to make this.
+
+- Made by ReactJS and Tailwindcss.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
