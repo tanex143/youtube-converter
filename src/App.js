@@ -8,7 +8,9 @@ const App = () => {
   const [ytURL, setYtURL] = useState('');
   const [ytID, setYtID] = useState('');
 
+  // Everytime ytURL will change, this will run again.
   useEffect(() => {
+    // To remove this link and just to get the youtube ID.
     const id = ytURL.replace('https://www.youtube.com/watch?v=', '');
     setYtID(id);
   }, [ytURL]);
