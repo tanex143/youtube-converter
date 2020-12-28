@@ -11,7 +11,7 @@ const DownloadButton = ({ ytID, type }) => {
         </h1>
       )}
 
-      {/* ///////Built-in iframe code from yt-download.org //////////// */}
+      {/* ///////Built-in iframe code from yt-download.org and to make dynamic //////////// */}
       <iframe
         title={type}
         className='border-none text-white rounded shadow-lg'
